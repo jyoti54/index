@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Original+Surfer&family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0px
+}
+#navbar{
+    background-color: rgb(185, 42, 42); 
+    padding: 4px 9px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 13px 30px;
+    color: honeydew;
+}
+#navbar li a:hover{
+    color: rgb(0, 0, 2);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 13px 20px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    margin: 0 40px;
+    color: white;
+    font-size: 20px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+
+#introSection{
+    font-family: 'Noto Serif', serif;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    font-size: 38px;
+    color: rgb(243, 237, 237);
+    display: flex;
+    font-size: 40px;
+    flex-direction: column;
+    
+}
+#introSection div{
+    position: absolute;
+    background-color: rgb(4, 7, 17); 
+    margin-top: 120px;
+}
+#introSection div.subtitle{
+    margin-top: 180px;
+    font-size: 1.3rem;
+}
+
+#missionSection {
+    height: 326px;
+    width: 67%;
+    margin: auto;
+}
+#missionSection h2{
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    padding-top: 12px;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 23px 20px;
+    height: 209px;
+    width: 27%;
+    /* background-color:rgb(138, 207, 240); */
+    background-color: rgb(152 138 240 / 18%);
+}
+.card h3{
+    text-align: center;
+    margin: 5px 12px;
+    font-family: 'Noto Serif', serif;
+}
+
+.card.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0px 14px;
+    margin: 5px 69px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content p{
+    font-size: 19px;
+}
+
+#sponserSection{
+    padding-top: 10px;
+    font-family: 'Noto Serif', serif;
+    height: 300px;
+    background-color:#c0616147;
+}
+#sponserSection h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+}
+#sponsers{
+    height: 191px;
+    max-width: 1000px;
+    margin: 27px  auto;
+}
+.spi{
+    height: 80%;
+    margin-left: 90px;
+    padding-top: 20px; 
+}
+#footer{
+    font-family: 'Noto Serif', serif;
+    height: 29px;
+    background-color: rgb(8, 5, 5);
+    justify-content: center; 
+    align-items: center;  
+    font-size: 16px;
+    color: white;
+    display: flex;
+}
+/* #footer h2{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 30px;
+    color: white;
+} */
